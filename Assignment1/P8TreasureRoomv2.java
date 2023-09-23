@@ -11,6 +11,9 @@ public class P8TreasureRoomv2 {
     public int compare(Pair a, Pair b) {
       return a.number - b.number;
     }
+
+    //+ swap
+    //- swap
   }
   public static void main(String args[])throws IOException {
     int N,target;
