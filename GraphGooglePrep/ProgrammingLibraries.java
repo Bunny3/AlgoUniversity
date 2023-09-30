@@ -1,4 +1,7 @@
 import java.util.*;
+
+import Contest.Contest5.Graph;
+
 import java.io.*;
 class Graph {
   int vertices;
