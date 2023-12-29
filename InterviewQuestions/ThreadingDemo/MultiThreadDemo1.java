@@ -4,10 +4,10 @@ import java.time.LocalDateTime;
 class MultiThread implements Runnable{
   public void run() {
     try {
-      LocalDateTime
-    System.out.println("Thread " + Thread.currentThread().getId() + "is running");
+    
+    System.out.println("Thread " + Thread.currentThread().getId() + " is running");
     Thread.sleep(2000);
-    System.out.println("Thread " + Thread.currentThread().getState() + "State");
+    System.out.println("Thread " + Thread.currentThread().getState() + " State");
 
     } catch(Exception e) {
       System.out.println("Exception is caught");

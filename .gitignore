@@ -1,3 +1,4 @@
 *.class
 *.mp4
 *.exe
+node_modules
